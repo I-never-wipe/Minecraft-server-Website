@@ -1,0 +1,22 @@
+body {
+	font-family: Verdana;
+	background-image: url(Background_gray.png);
+}
+			
+img.banner {
+	max-width: 100%; 
+	height: auto; 
+	min-width: 500px;
+}
+			
+div.menubar {
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-size: 18pt;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
