@@ -4,29 +4,42 @@
    
 <html>
 	<head>
-		<title>Genuine Minecraft: Rules</title>
+		<title>Genuine Minecraft: How to </title>
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<style>
-			body {
-				font-size: 12pt;
-				color: white;
-				}
+		li {
+			font-size: 18px;
+		}
 		</style>
+		<script>
+		$(window).scroll(function(){
+				if ($(window).scrollTop() >= 100) {
+					$("#top_nav").addClass("fixed");
+					
+				} else {
+					$("#top_nav").removeClass("fixed");
+				}
+			});
+		</script>
 	</head>
 	
 	<body>
-		<div class="header">
-			<img src="banner2.png" align="center" class="banner">
-			<br>
+	<img src="banner2.png" class="banner">
+		<div class="header" id="top_nav">
 			<a href="Minecraft Website.html">Home</a> | <a href="Rules.html">Server Rules</a> | <a href="How to Join.html">How To Join</a> | <a href="http://purebattlefield.org">Pure Battlefield</a>
 		</div>
 		<div class="content">
-		<ol>
-			<li>Download ATLauncher</li>
-			Go to http://www.atlauncher.com/downloads/. There it will tell you the correct procedure to install the launcher.
-			
-			Once ATLauncher is open go to the 'Accounts' tab and enter in your Minecraft Username/Email and Password combination to add your account.
-		</ol>
+			<div class="subheader">How to Join</div>
+			<ol>
+				<li>Download ATLauncher</li>
+				<p>Go to <a href="http://www.atlauncher.com/downloads/">http://www.atlauncher.com/downloads/</a> and download the correct executable for your system. There it will tell you the correct procedure to install the launcher.<br>Once ATLauncher is open go to the "Accounts" tab and enter in your Minecraft Username/Email and Password combination to add your account.</p>
+				<li>Install Resonant Rise Mainline</li>
+				<p>Go to the "Packs" tab and search for "Resonant Rise".<br>Then click on "New Instance" and follow the installation procedure. We use all of the optional mods. There are some that are up to you like EiraIRC, Damage Indicators, and your minimap of choice.<br>During the installation it may direct to adfly in order to download a file. If it does just click on skip ad in the top right corner and then download the file.<br>Usually we will be running the latest version but if the update is very recent we may not have updated yet.</p>
+				<li>Launch Minecraft</li>
+				<p>Go to the "Instances" tab and click on "Play" under Resonant Rise.<br>Because there are so many mods in the modpack for the launcher to load so it may take a while to boot. There will be errors in the console and Minecraft may stop responding for a couple moments, this is normal.</p>
+				<li>Join the Server</li>
+				<p>The I.P. to the server is 72.5.102.202:25566. If you have 2 maps press "n".</p>
+			</ol>
 		</div>
 	</body>
 </html>

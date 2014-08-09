@@ -5,10 +5,7 @@ body {
 }
 			
 .banner {
-	margin-top: 20px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
+	margin: 0px
 }
 			
 .header {
@@ -34,7 +31,7 @@ a {
 }
 
 .subheader {
-	Margin-top: 0px;
+	Margin-top: 255px;
 	margin-left: 30px;
 	background-color: black;
 	color: white;

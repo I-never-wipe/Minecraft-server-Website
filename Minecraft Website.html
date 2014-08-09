@@ -4,18 +4,27 @@
 
 <html>
 	<head>
-		<title>**********</title>
+		<title>Genuine Minecraft</title>
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<style type="text/css">
-			
 		</style>
+		<script>
+		$(window).scroll(function(){
+				if ($(window).scrollTop() >= 100) {
+					$("#top_nav").addClass("fixed");
+					
+				} else {
+					$("#top_nav").removeClass("fixed");
+				}
+			});
+		</script>
 	</head>
 	<body>
+	<img src="banner2.png" class="banner">
 		<div class="header">
-			<img src="banner2.png" align="middle" class="banner">
-			<br>
 			<a href="Minecraft Website.html">Home</a> | <a href="Rules.html">Server Rules</a> | <a href="How to Join.html">How To Join</a> | <a href="http://purebattlefield.org">Pure Battlefield</a>
 		</div>
+		<div class="subheader">About Us</div>
 		<div class="content">
 		</div>
 	</body>

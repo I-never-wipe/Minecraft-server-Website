@@ -7,25 +7,42 @@
 		<title>Genuine Minecraft: Rules</title>
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<style>
-			body {
-				font-size: 18pt;
-				color: white;
+			li {
+				font-size: 18px;
 				}
 		</style>
+		<script>
+		$(window).scroll(function(){
+				if ($(window).scrollTop() >= 100) {
+					$("#top_nav").addClass("fixed");
+					
+				} else {
+					$("#top_nav").removeClass("fixed");
+				}
+			});
+		</script>
 	</head>
 	
 	<body>
-	<div class="header">
-			<img src="banner2.png" align="center" class="banner">
-			<br>
+		<img src="banner2.png" class="banner">
+		<div class="header" id="top_nav">
 			<a href="Minecraft Website.html">Home</a> | <a href="Rules.html">Server Rules</a> | <a href="How to Join.html">How To Join</a> | <a href="http://purebattlefield.org">Pure Battlefield</a>
-	</div>
+		</div>
+		
+		
 		<div class="content">
-		<ol style="margin-left: 50px;">
-			<li>No griefing.</li>
-			<li>No bigoted language.</li>
-			<li>No glitching or hacking.</li>
-		</ol>
+			<div class="subheader" style=" width: 100px">Rules</div>
+			<p> We do not have very many rules. What rules we do have are there to a maintain fun and welcoming Minecraft server.</p>
+			<ol>
+				<li>No griefing.</li>
+				<p> The sole purpose of griefing is to ruin other player's time on our server. If this is what you wish to do you are not welcome on our server. There are numerous ways to grief another player or a server. <b>NO</b> methods are allowed whether it be destruction, construction, or even chat spam.</p> 
+				<li>No glitching or hacking.</li>
+				<p> This includes things like exploiting bugs that would allow you, for example, to duplicate items or do things you would not normally be able to do. Hacking is self-explanatory, don't do it.
+				<li>No bigoted language.</li>
+				<p> While explicit language is allowed, language that is targeted towards a specific group and is generally associated with hate speech is not allowed. Even though words like "fag" are said without a malicious intent they are still harmful and create an unwelcoming environment.
+				
+			</ol>
+			<p>Breaking rules one and two will result in a ban no exceptions. For rule number three you will be given a warning and then a kick before you are banned.
 		</div>
 	</body>
 </html>
